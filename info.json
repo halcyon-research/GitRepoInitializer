@@ -1,0 +1,11 @@
+{
+    "project": [
+        {
+            "author": "Michael Peters",
+            "projectName": "Git Repo Initializer",
+            "version": "0.0.1",
+            "description": "This python script helps efficiently create and attach a folder to a remote Github repository. All from the command line!",
+            "githubLink": "https://github.com/michaelpeterswa/GitRepoInitializer"
+        }
+    ]
+}
