@@ -1,10 +1,21 @@
 #!/usr/bin/python
 
+# # # # # # # # # # # #
+#                _    #
+#     ___ _____(_)    #
+#    / _ `/ __/ /     #
+#    \_, /_/ /_/      #
+#   /___/             #
+#                     #
+# GitRepoInitializer  #
+# Michael Peters      #
+# 2019                #
+# # # # # # # # # # # #
+
 import os
 import argparse
 import json
 import emoji
-
 
 data = {}  
 data['project'] = []
@@ -58,9 +69,6 @@ if args.init:
     os.system(command)
     os.system('git remote add origin ' + gitRemote)
     os.system('git push -u origin master')
-
-    
-
 
     os.system('clear')
     print(emoji.emojize(':zap: Repository Creator Finished Successfully :zap:', use_aliases=True))
