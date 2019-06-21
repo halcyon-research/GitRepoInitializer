@@ -11,8 +11,8 @@ git clone https://github.com/michaelpeterswa/GitRepoInitializer.git
 Or download the file manually. Then create a symbolic link to a folder in the system path for the program.
 Then change directories to where the new link is located, change the permissions, and the program is ready to use!
 ```
-ln -s ~/GitRepoInitializer/proj.py ($PATH)/proj
-cd $PATH
+ln -s ~/GitRepoInitializer/proj.py /usr/.local/bin/proj
+cd /usr/.local/bin
 sudo chmod +x proj
 cd ~
 proj init
