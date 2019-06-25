@@ -19,6 +19,7 @@ proj init
 ```
 ![Alt text](img/proj2.png?raw=true "Filling in information")
 ![Alt text](img/proj3.png?raw=true "Confirmation Screen")
+![Alt text](img/proj4.png?raw=true "auto-generated README.md")
 
 ## Release History
 
