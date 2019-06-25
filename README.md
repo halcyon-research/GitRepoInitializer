@@ -17,6 +17,8 @@ sudo chmod +x proj
 cd ~
 proj init
 ```
+![Alt text](img/proj2.png?raw=true "Filling in information")
+![Alt text](img/proj3.png?raw=true "Confirmation Screen")
 
 ## Release History
 
